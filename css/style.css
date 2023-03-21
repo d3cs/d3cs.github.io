@@ -1,0 +1,107 @@
+body {
+	font-family: Poppins, Arial;
+	font-size: 16px;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 19px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+#content-wrapper {
+	width: 90%;
+	min-width: 550px;
+	border:0;
+	margin: 0 auto;
+}
+
+#content {
+	min-width: 550px;
+	background: #33335e;
+}
+
+#main{
+	background: #e7e7e7;
+	width: 60%;
+	float: right;
+	padding: 0 15px;
+}
+
+#leftsbar {
+	background: #33335e;
+	width: 33%;
+	float: left;
+	color: #fff;
+}
+
+#leftsbar h1,
+#leftsbar h2,
+#leftsbar h3,
+#leftsbar h4,
+#leftsbar h5,
+#leftsbar p {
+	padding: 0 20px;
+}
+
+img#profilepicture {
+	margin: 20px auto 0;
+	display: block;
+	border-radius: 125px;
+	width: 140px;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.lsideheader {
+	background: #1e1e5c;
+}
+
+.date {
+	width: 29%;
+	float: left;
+	background: transparent;
+}
+
+.client-wrapper {
+	width: 63%;
+	float: right;
+	background: #f1f1f1;
+	padding: 0 12px;
+}
+
+.imgportfolio {
+	width: 150px;
+	height: 150px;
+	background: #4989af;
+	border-radius: 10px;
+	border: 2px solid #eee;
+	margin: 20px;
+	float: left;
+	display: block;
+}
+
+@media only screen and (max-width: 1325px) {
+  img[alt="Portfolio Image Number 11"],
+  img[alt="Portfolio Image Number 09"],
+  img[alt="Portfolio Image Number 04"],
+  img[alt="Portfolio Image Number 05"]{
+    display: none;
+  }
+}
