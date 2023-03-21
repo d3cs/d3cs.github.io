@@ -96,3 +96,12 @@ img#profilepicture {
 	float: left;
 	display: block;
 }
+
+@media only screen and (max-width: 1325px) {
+  img[alt="Portfolio Image Number 11"],
+  img[alt="Portfolio Image Number 09"],
+  img[alt="Portfolio Image Number 04"],
+  img[alt="Portfolio Image Number 05"]{
+    display: none;
+  }
+}
